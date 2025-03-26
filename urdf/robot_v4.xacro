@@ -406,7 +406,7 @@
   <parent link="left_wrist_1"/>
   <child link="left_hand_1"/>
   <axis xyz="-0.0 1.0 0.0"/>
-  <limit upper="0.0" lower="-1.570796" effort="100" velocity="100"/>
+  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
 </joint>
 
 <joint name="LJ7" type="revolute">
@@ -470,7 +470,7 @@
   <parent link="right_wrist_1"/>
   <child link="right_hand_1"/>
   <axis xyz="0.0 -1.0 0.0"/>
-  <limit upper="0.0" lower="-1.570796" effort="100" velocity="100"/>
+  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
 </joint>
 
 <joint name="RJ7" type="revolute">
